@@ -38,6 +38,11 @@ public interface HelperUtil {
         return head;
     }
 
+    static ListNode getLastNode(ListNode head){
+        while(head.next != null) head = head.next;
+        return head;
+    }
+
     public static ListNode reverseList(ListNode head) {
         ListNode prev = null, curr = head;
 

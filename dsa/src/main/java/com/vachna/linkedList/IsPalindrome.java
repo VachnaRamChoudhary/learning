@@ -26,10 +26,10 @@ public class IsPalindrome {
             return true;
         }
 
-    public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>(List.of(1, 2, 2, 1, 2));
-        ListNode a = HelperUtil.createLinkedList(list);
-        a.printNodes();
-        new IsPalindrome(a);
-    }
+//    public static void main(String[] args) {
+//        ArrayList<Integer> list = new ArrayList<>(List.of(1, 2, 2, 1, 2));
+//        ListNode a = HelperUtil.createLinkedList(list);
+//        a.printNodes();
+//        new IsPalindrome(a);
+//    }
 }
