@@ -23,7 +23,8 @@
 	</developers>
     <modules>
         <module>tic-tac-toe</module>
-    </modules>
+		<module>elevator-low-level-design</module>
+	</modules>
     <scm>
 		<connection/>
 		<developerConnection/>
