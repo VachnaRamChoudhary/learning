@@ -38,7 +38,7 @@ public class ReverseNodesInKGroup {
 
             // Detach the group and reverse it
             kthNode.next = null;
-            ListNode newGroupStart = reverseList(groupStart);
+            ListNode newGroupStart = HelperUtil.reverseList(groupStart);
 
             // Connect the reversed group back to the main list
             prevGroupEnd.next = newGroupStart;
@@ -51,18 +51,6 @@ public class ReverseNodesInKGroup {
         return dummy.next;
     }
 
-    private ListNode reverseList(ListNode head) {
-        ListNode prev = null, curr = head;
-
-        while (curr != null) {
-            ListNode next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-        }
-
-        return prev;
-    }
 
     private ListNode getKthNode(ListNode node, int k) {
         while (node != null && k > 0) {
