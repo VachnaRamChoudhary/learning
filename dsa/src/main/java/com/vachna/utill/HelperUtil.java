@@ -24,7 +24,7 @@ public interface HelperUtil {
     static ListNode createLinkedList(ArrayList<Integer> list){
         int n = list.size();
         if (n == 0) {
-            throw new InvalidKeyException();
+            return null;
         }
 
         ListNode head = new ListNode(list.getFirst()); // Create the first node

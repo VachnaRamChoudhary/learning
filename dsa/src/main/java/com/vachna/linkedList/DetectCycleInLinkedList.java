@@ -41,11 +41,11 @@ public class DetectCycleInLinkedList {
         return null;
     }
 
-    public static void main(String[] args) {
-        ListNode a = HelperUtil.createLinkedList(3);
-        ListNode b = HelperUtil.getLastNode(a);
-        b.next = a;
-        new DetectCycleInLinkedList(a);
-
-    }
+//    public static void main(String[] args) {
+//        ListNode a = HelperUtil.createLinkedList(3);
+//        ListNode b = HelperUtil.getLastNode(a);
+//        b.next = a;
+//        new DetectCycleInLinkedList(a);
+//
+//    }
 }
