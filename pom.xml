@@ -25,7 +25,8 @@
         <module>tic-tac-toe</module>
 		<module>elevator-low-level-design</module>
         <module>dsa</module>
-    </modules>
+		<module>designs</module>
+	</modules>
     <scm>
 		<connection/>
 		<developerConnection/>
