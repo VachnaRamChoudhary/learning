@@ -4,6 +4,7 @@ import com.vachna.modals.ListNode;
 
 import javax.management.openmbean.InvalidKeyException;
 import java.util.ArrayList;
+import java.util.List;
 
 public interface HelperUtil {
 
@@ -88,5 +89,16 @@ public interface HelperUtil {
         }
         System.out.println();
     }
+
+    static <T> void print(List<T> list) {
+        for (int i = 0; i < list.size(); i++) {
+            System.out.print(list.get(i));
+            if (i < list.size() - 1) {
+                System.out.print(",");
+            }
+        }
+        System.out.println();
+    }
+
 
 }
