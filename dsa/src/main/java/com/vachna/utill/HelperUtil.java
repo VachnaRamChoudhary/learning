@@ -5,6 +5,7 @@ import com.vachna.modals.ListNode;
 import javax.management.openmbean.InvalidKeyException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.PriorityQueue;
 
 public interface HelperUtil {
 
@@ -96,6 +97,24 @@ public interface HelperUtil {
             if (i < list.size() - 1) {
                 System.out.print(",");
             }
+        }
+        System.out.println();
+    }
+
+    public static <T> void printTree(PriorityQueue<T> queue) {
+        // Convert PriorityQueue to a list to access elements by index
+        ArrayList<T> elements = new ArrayList<>(queue);
+        int size = elements.size();
+        int level = 0;
+
+        System.out.println("PriorityQueue as a Tree:");
+        for (int i = 0; i < size; i++) {
+            // Check if we are at a new level
+            if (i == Math.pow(2, level) - 1) {
+                System.out.println(); // New line for the new level
+                level++;
+            }
+            System.out.print(elements.get(i) + " ");
         }
         System.out.println();
     }
