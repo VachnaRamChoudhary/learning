@@ -1,4 +1,4 @@
-package com.vachna.modals;
+package dsa.src.main.java.com.vachna.modals;
 
 public class ElevatorDisplay {
 

@@ -1,6 +1,6 @@
 package com.vachna.utill;
 
-import com.vachna.modals.ListNode;
+import dsa.src.main.java.com.vachna.modals.ListNode;
 
 import javax.management.openmbean.InvalidKeyException;
 import java.util.ArrayList;

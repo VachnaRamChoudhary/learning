@@ -1,6 +1,6 @@
 package com.vachna.linkedList;
 
-import com.vachna.modals.ListNode;
+import dsa.src.main.java.com.vachna.modals.ListNode;
 import com.vachna.utill.HelperUtil;
 
 public class RotateList {

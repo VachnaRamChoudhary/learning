@@ -1,6 +1,6 @@
 package com.vachna.tree;
 
-import com.vachna.modals.TreeNode;
+import dsa.src.main.java.com.vachna.modals.TreeNode;
 
 public class ValidateBinarySearchTree {
     public ValidateBinarySearchTree() {

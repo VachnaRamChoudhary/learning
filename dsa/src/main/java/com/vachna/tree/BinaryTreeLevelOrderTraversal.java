@@ -1,7 +1,7 @@
 package com.vachna.tree;
 
-import com.vachna.modals.ListNode;
-import com.vachna.modals.TreeNode;
+import dsa.src.main.java.com.vachna.modals.ListNode;
+import dsa.src.main.java.com.vachna.modals.TreeNode;
 import com.vachna.utill.HelperUtil;
 
 import java.util.*;
